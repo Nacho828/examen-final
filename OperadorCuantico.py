@@ -1,4 +1,5 @@
 import numpy as np
+from typing import List
 from EstadoCuantico import EstadoCuantico
 class OperadorCuantico:
     def __init__(self, nombre: str, matriz: List[List[complex]]):

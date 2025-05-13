@@ -1,6 +1,6 @@
 from RepositorioDeEstados import RepositorioDeEstados
 from OperadorCuantico import OperadorCuantico
-
+import numpy as np
 
 class Lanzador:
         def __init__(self):
@@ -41,5 +41,3 @@ class Lanzador:
             for linea in nuevo_repo.listar_estados():
                 print(linea)
 
-    lanzador = Lanzador()
-    lanzador.ejecutar()

@@ -42,5 +42,6 @@ class Lanzador:
                 print(linea)
 
         def ejecuta_lanzador():
-            lanzador = Lanzador()
-            lanzador.ejecutar()
+            return Lanzador()
+            
+            

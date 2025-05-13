@@ -7,7 +7,7 @@ import os
 class Lanzador:
     def __init__(self):
         self.repo = RepositorioDeEstados()
-        self.directorio_datos = "../archivos"
+        self.directorio_datos = "archivos"
 
     def registrar_estado(self):
         print("\nRegistro de nuevo estado cuántico")

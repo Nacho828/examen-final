@@ -41,4 +41,6 @@ class Lanzador:
             for linea in nuevo_repo.listar_estados():
                 print(linea)
 
-              
+        def ejecuta_lanzador():
+            lanzador = Lanzador()
+            lanzador.ejecutar()

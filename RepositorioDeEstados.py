@@ -1,6 +1,8 @@
 import json
 from EstadoCuantico import EstadoCuantico
 from OperadorCuantico import OperadorCuantico
+from typing import List, Dict
+
 class RepositorioDeEstados:
     def __init__(self):
         self.estados = {}

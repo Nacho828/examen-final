@@ -1,0 +1,30 @@
+{
+    "q0": {
+        "vector": [
+            "(1+0j)",
+            "0j"
+        ],
+        "base": "computacional"
+    },
+    "q1": {
+        "vector": [
+            "0j",
+            "(1+0j)"
+        ],
+        "base": "computacional"
+    },
+    "q0_X": {
+        "vector": [
+            "0j",
+            "(1+0j)"
+        ],
+        "base": "computacional"
+    },
+    "q0_H": {
+        "vector": [
+            "(0.7071067811865475+0j)",
+            "(0.7071067811865475+0j)"
+        ],
+        "base": "computacional"
+    }
+}

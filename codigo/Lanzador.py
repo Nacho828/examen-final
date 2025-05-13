@@ -1,6 +1,7 @@
 from RepositorioDeEstados import RepositorioDeEstados
 from OperadorCuantico import OperadorCuantico
 import numpy as np
+import os
 
 
 class Lanzador:

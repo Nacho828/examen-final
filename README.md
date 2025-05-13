@@ -16,12 +16,11 @@ Gestiona un conjunto de estados cuánticos.
 
 Permite agregar, listar, obtener y medir estados.
 Puede aplicar operadores a estados, guardar los estados en un archivo y cargarlos desde un archivo.
+4. Lanzador  
+Es la clase principal que coordina la ejecución del programa.
 
-4. Lanzador
-Es la clase principal que orquesta el flujo del programa.
-
-Crea estados y operadores, aplica operaciones, mide estados, muestra resultados y gestiona la persistencia (guardar/cargar).
-Su método ejecutar ejecuta una demostración de todas estas funcionalidades.
+Permite seleccionar y ejecutar distintas funcionalidades desde un menú interactivo, como crear estados y operadores, aplicar operadores, medir estados, mostrar resultados y gestionar la persistencia (guardar/cargar estados).  
+El método `ejecutar` inicia el menú y guía al usuario a través de las opciones disponibles.
 
 
 Link Repositorio: https://github.com/Nacho828/examen-final.git

@@ -60,16 +60,18 @@ class Lanzador:
 
     def guardar_estados(self):
         archivo = input("Nombre del archivo para guardar (ej: estados.json): ")
+        ruta = os.path.join(self.directorio_datos, archivo)
         try:
-            self.repo.guardar(archivo)
+            self.repo.guardar(ruta)
             print("Estados guardados correctamente.")
         except Exception as e:
             print(f"Error al guardar: {e}")
 
     def cargar_estados(self):
         archivo = input("Nombre del archivo para cargar (ej: estados.json): ")
+        ruta = os.path.join(self.directorio_datos, archivo)
         try:
-            self.repo.cargar(archivo)
+            self.repo.cargar(ruta)
             print("Estados cargados correctamente.")
         except Exception as e:
             print(f"Error al cargar: {e}")
